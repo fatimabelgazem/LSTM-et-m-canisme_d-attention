@@ -133,8 +133,9 @@ R2 Score = X.XX
 
 ## Conclusion
 
-Ce modèle montre comment utiliser les réseaux LSTM et le mécanisme d'attention pour prédire la production d'énergie photovoltaïque à partir de données historiques. Il peut être amélioré avec des ajustements d'hyperparamètres et une meilleure sélection des features.
+- Ce modèle montre comment utiliser les réseaux LSTM et le mécanisme d'attention pour prédire la production d'énergie photovoltaïque à partir de données historiques. Il peut être amélioré avec des ajustements d'hyperparamètres et une meilleure sélection des features.
 --- 
 
 ## Auteurs
+
  - Fatima Belgazem : fatimabelgazem@gmail.com
