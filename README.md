@@ -60,19 +60,28 @@ Le modèle est entraîné pendant 50 à 130 époques, avec un taux d'apprentissa
 ---
 
 ## Utilisation
+
 **1. Charger les données**
+
 Les données sont automatiquement téléchargées et prétraitées depuis les fichiers CSV de 2010 à 2017.
+
 ```bash
 Data_10 = pd.read_csv('https://ws.50hertz.com/web02/api/PhotovoltaicActual/DownloadFile?fileName=2010.csv', sep=';')
 Data_10 = reg_data(Data_10)
 ```
+
 **2. Entraîner le modèle LSTM**
+
 Le modèle LSTM est entraîné avec les données d'entraînement transformées.
+
 ```bash
 model_train = model.fit(Xtrain, Ytrain, validation_split=0.2, epochs=50, batch_size=8, verbose=1)
 ```
+
 **3. Ajouter le mécanisme d'attention**
+
 Une couche d'attention est ajoutée pour pondérer les informations importantes au cours de l'entraînement.
+
 ```bash
 model2 = Model(inputs=x, outputs=outputs)
 model2.compile(loss='mse', optimizer=Adam(learning_rate=1e-3))
