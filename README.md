@@ -1,4 +1,4 @@
-# Projet de Prévision de l'Énergie Photovoltaïque avec LSTM et Attention
+# Projet de Prévision de l'Énergie Photovoltaïque avec LSTM et mécanisme d'attention
 ---
 
 Ce projet vise à prédire la production d'énergie photovoltaïque en utilisant des modèles LSTM (Long Short-Term Memory) et des mécanismes d'attention. Les données utilisées proviennent de fichiers CSV contenant des informations sur la production d'énergie de 2010 à 2017.
